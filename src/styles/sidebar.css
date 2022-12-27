@@ -1,0 +1,20 @@
+.sidebar {
+  min-height: 565px;
+}
+.sidebar .row {
+  transform: translateZ(0px);
+  top: 0px;
+  width: 384px;
+  position: fixed;
+}
+
+.sidebar .row .wrapper {
+  width: 320px;
+  padding: 7em 2em 0 2em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidebar .row .wrapper {
+    display: none;
+  }
+}

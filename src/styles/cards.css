@@ -1,0 +1,30 @@
+.cards {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.cards .switch{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.cards .switch .active{
+  text-decoration: underline;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.cards .switch .inactive{
+  display: flex;
+  align-items: center;
+}
+.cards .switch .switch-image{
+  width: 25px;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    width: 100%;
+  }
+}

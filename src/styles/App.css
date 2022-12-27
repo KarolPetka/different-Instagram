@@ -1,0 +1,42 @@
+body {
+  background-color: var(--background-white);
+  /*font-family: var(--font);*/
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  min-width: fit-content;
+}
+
+main {
+  background-color: var(--background-grey);
+  margin-top: 60px;
+}
+main .container {
+  display: flex;
+  justify-content: left;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+  main .container {
+    justify-content: center !important;
+  }
+}
+.react-slideshow-fadezoom-wrapper{
+  width: 600px !important;
+}
+.react-slideshow-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+

@@ -1,0 +1,59 @@
+.user {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+  }
+
+.picture {
+    position: relative;
+    display: block;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border: 1px solid #dbdbdb;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.namespace {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.info {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.line {
+    font-size: 15px;
+    color: rgb(69, 69, 69);
+    text-transform: capitalize;
+}
+
+.data {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.edit {
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.user-contianer {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+}

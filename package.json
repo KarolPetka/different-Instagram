@@ -1,0 +1,67 @@
+{
+  "name": "insta-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/cors": "^2.8.12",
+    "@types/jest": "^29.1.1",
+    "@types/node": "^18.8.2",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-sticky-el": "^1.0.3",
+    "fslightbox-react": "^1.6.2-2",
+    "immer": "^9.0.16",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
+    "react-scroll-horizontal": "^1.6.6",
+    "react-sticky-el": "^2.0.9",
+    "sass": "^1.55.0",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/fslightbox-react": "^1.4.2",
+    "@types/lodash": "^4.14.186",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-modal": "^3.13.1",
+    "prettier": "2.7.1",
+    "stylelint": "^14.13.0",
+    "stylelint-prettier": "^2.0.0"
+  }
+}

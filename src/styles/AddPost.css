@@ -1,0 +1,28 @@
+.add-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-post-image,
+.add-post-text {
+ width: 50vw;
+ padding-top: 12px;
+}
+
+.add-post-header {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.add-post-input {
+  width: 100%;
+}
+
+.add-post-apply {
+  text-align: center;
+  color: #b3dffc;
+  padding-top: 12px;
+
+}
