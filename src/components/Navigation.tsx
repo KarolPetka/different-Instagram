@@ -70,7 +70,7 @@ function Navigation() {
     event.preventDefault();
     setShow(true)
     const keyValue = input.split("-");
-    if (keyValue[0].toLowerCase() === "userid") {
+    if (keyValue[0].toLowerCase() === "userid" && +keyValue[1] <= 10) {
       setShowPhoto(false)
       setShowAlbum(false)
       getUserPromise(keyValue[1])
@@ -78,7 +78,7 @@ function Navigation() {
           setShowUser(true)
           setUser(user);
         })
-    } else if (keyValue[0].toLowerCase() === "photoid") {
+    } else if (keyValue[0].toLowerCase() === "photoid" && +keyValue[1] <= 5000) {
       setShowUser(false)
       setShowAlbum(false)
       getPhotoPromise(keyValue[1])
@@ -87,7 +87,7 @@ function Navigation() {
           console.log(photo)
           setPhotos(photo);
         })
-    } else if (keyValue[0].toLowerCase() === "albumid") {
+    } else if (keyValue[0].toLowerCase() === "albumid" && +keyValue[1] <= 100) {
       setShowUser(false)
       setShowPhoto(false)
       getAlbumPromise(keyValue[1])
